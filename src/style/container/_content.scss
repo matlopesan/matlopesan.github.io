@@ -1,0 +1,18 @@
+@import "../variables/sizes";
+@import "colors";
+
+.container {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: $color-bar-size;
+    background-image: linear-gradient(to right, $color-bar-start, $color-bar-middle, $color-bar-end);
+  }
+}
