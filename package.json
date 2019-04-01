@@ -22,7 +22,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development --host 0.0.0.0 --port 8080",
     "build": "webpack --mode=production",
-    "deploy": "yarn build && gh-pages -b master -d dist"
+    "deploy": "npm run build && gh-pages -b master -d dist"
   },
   "repository": {
     "type": "git",
