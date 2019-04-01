@@ -7,6 +7,24 @@ body {
   min-width: 100vw;
   min-height: 100vh; }
 
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2.3rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2.3rem; }
+
+h3 {
+  font-size: 2rem; }
+
 .container {
   position: absolute;
   min-width: 100%;
@@ -33,7 +51,6 @@ body {
     margin: 15px 0; }
 
 .header {
-  min-height: 70vh;
   background-color: #fff;
   padding: 10px 30px;
   display: flex;
@@ -43,7 +60,6 @@ body {
       width: 30%;
       min-height: 100%; } }
   .header__name {
-    font-size: 2.5rem;
     margin: 20px 0;
     margin-bottom: 10%;
     font-weight: lighter; }
@@ -76,7 +92,8 @@ body {
   .job__image {
     height: 35vh;
     width: 100%;
-    object-fit: cover; }
+    object-fit: cover;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.16); }
     @media (min-width: 1024px) {
       .job__image {
         height: 25vh;
@@ -90,7 +107,6 @@ body {
       .job__description {
         margin: 20px 30px 0 30px; } }
   .job__title {
-    font-size: 2rem;
     margin-bottom: 15px; }
   .job__short-description {
     margin-bottom: 10px;
@@ -116,7 +132,6 @@ body {
       min-height: 100%; } }
   .jobs__title {
     font-weight: bold;
-    font-size: 2.5rem;
     margin-bottom: 30px; }
   .jobs__list {
     padding: 0;
