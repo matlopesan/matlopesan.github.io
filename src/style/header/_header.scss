@@ -2,7 +2,6 @@
 @import "contacts";
 
 .header {
-  min-height: 70vh;
   background-color: $background-color-light;
   padding: 10px 30px;
   display: flex;
@@ -14,7 +13,6 @@
   }
 
   &__name {
-    font-size: 2.5rem;
     margin: 20px 0;
     margin-bottom: 10%;
     font-weight: lighter;
