@@ -1,7 +1,11 @@
 @import "./variables/colors";
 
 .jobs {
-  width: 80%;
-  min-height: 100%;
+  min-height: 30vh;
   background-color: $background-color;
+
+  @include large {
+    width: 80%;
+    min-height: 100%;
+  }
 }

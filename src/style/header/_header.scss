@@ -1,7 +1,55 @@
 @import "./variables/colors";
+@import "contacts";
 
 .header {
-  width: 20%;
-  min-height: 100%;
+  min-height: 70vh;
   background-color: $background-color-light;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+
+  @include large {
+    width: 30%;
+    min-height: 100%;
+  }
+
+  &__name {
+    font-size: 2.5rem;
+    margin: 20px;
+    margin-bottom: 10%;
+    font-weight: lighter;
+
+    &__strong {
+      font-weight: bold;
+    }
+  }
+
+  &__abilities {
+    margin-bottom: 5%;
+
+    &__accent-1 {
+      color: $accent-color-green;
+    }
+
+    &__accent-2 {
+      color: $accent-color-purple;
+    }
+
+    &__accent-3 {
+      color: $accent-color-orange;
+    }
+  }
+
+  &__description {
+    height: 100%;
+    padding-bottom: 60px;
+  }
+
+  &__contacts {
+    border-top-width: 1px;
+    border-top-color: $font-primary-color;
+    border-top-style: solid;
+    padding-top: 30px;
+    margin-right: 30px;
+  }
 }

@@ -1,4 +1,5 @@
 @import "../variables/sizes";
+@import "../variables/fonts";
 @import "colors";
 
 .container {
@@ -6,7 +7,14 @@
   min-width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
+
+  @include large {
+    flex-flow: row;
+  }
+
+  color: #707070;
+  font-family: $primary-font;
 
   &::before {
     content: "";

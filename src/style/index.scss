@@ -1,5 +1,7 @@
+@import "reset";
+@import "mixins";
+@import "variables/sizes";
+@import "variables/fonts";
 @import "container/content";
 @import "header/header";
 @import "jobs/jobs";
-@import "reset";
-@import "variables/sizes";
